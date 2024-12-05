@@ -361,7 +361,7 @@
 
 ;MATLAB拟合曲线结果 Fit Curve
 ( defun fc
-	( x y / z)
+	( x y / z p00 p10 p01 p20 p11 p02 p30 p21 p12 p03 p40 p31 p22 p13 p04 p50 p41 p32 p23 p14 p05)
 
 	( setq 
 		p00 1.5893
